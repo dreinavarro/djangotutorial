@@ -1,4 +1,6 @@
 from django.shortcuts import render
+from django.http import HttpResponse
 
-def index(request):
-    return HttpResponse("Hello, world. You're at the polls index.")
+# Create your views here.
+def hello_world(request):
+    return HttpResponse("Hello, World! This is Angie.")
